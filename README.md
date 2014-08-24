@@ -11,12 +11,13 @@ Requirements
 Role Variables
 --------------
 
-None.
+- osx_go_gopath: ~/go
+    - value for GOPATH environment variable. see [About the go command - The Go Programming Language](http://golang.org/doc/articles/go_command.html) for GOPATH
 
 Dependencies
 ------------
 
-None.
+- hnakamur.oh-my-zsh
 
 Example Playbook
 ----------------

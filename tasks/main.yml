@@ -4,3 +4,5 @@
     - go
     - git
     - mercurial
+
+- template: src=go.zsh.j2 dest={{ zsh_custom_dir }}/go.zsh

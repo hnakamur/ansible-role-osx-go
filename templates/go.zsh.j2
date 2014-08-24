@@ -1,0 +1,4 @@
+# {{ ansible_managed }}
+
+export GOPATH={{ osx_go_gopath | replace('~', '$HOME') }}
+export PATH="$GOPATH/bin:$PATH"
